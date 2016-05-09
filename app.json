@@ -15,6 +15,7 @@
         "-s",
         "http://{{.MESOS_IP}}:5050/health"
       ],
+      "tags": ["{{.DC}}"],
       "poll": 10,
       "ttl": 30
     }
